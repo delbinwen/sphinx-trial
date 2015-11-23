@@ -1,0 +1,21 @@
+site_name: CrystalExpressLite 文檔 - Android
+theme: readthedocs
+site_favicon: favicon.ico
+extra_css:
+- css/custom.css
+pages:
+- 首頁: index.md
+- 名詞定義: terminology.md
+- 整合前置步驟:
+  - 申請 Crystal ID 與版位規劃: prepare.md
+  - SDK 安裝: sdk-installation.md  
+  - 設定 AndroidManifest.xml: setup-androidmanifest.md
+  - 初始化 SDK 與回報 Activity 生命周期: sdk-initialization.md  
+- 廣告版位整合:
+  - 原生廣告: native-ad-integration.md
+  - 開機蓋屏: interstitial-ad-integration.md
+- 預覽模式: preview-mode.md
+- 程式碼混淆: proguard.md
+- 正式上線檢查要點: checkpoint.md
+- 問題集: faq.md
+- API 參考: api-reference.md
